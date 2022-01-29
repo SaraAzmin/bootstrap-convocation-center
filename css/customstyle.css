@@ -1,0 +1,53 @@
+/* font import  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.section-title{
+font-size: 36px;
+}
+
+/* nav styles  */
+.navigation{
+    height: 100px;
+    width: 100%;
+}
+
+/* package section styles  */
+.package-h-color{
+    color: #231D4F;
+}
+.highlighted-package{
+    border-radius: 20px;
+    border: none;
+}
+
+
+/* media query  */
+@media only screen and (max-width: 576px) {
+    .carousel-caption h2{ 
+        font-size: 0.8em;
+    }
+    .carousel-caption p {
+        font-size: 0.3em;
+    } 
+    .highlighted-package{
+        margin-top: 20px;
+    }
+    .footer-mobile{
+        flex-direction: column;
+    }
+
+  }
+
+  @media (min-width: 577px) and (max-width: 750px) {
+    .carousel-caption h2{ 
+        font-size: 1em;
+    }
+    .carousel-caption p {
+        font-size: 0.8em;
+    }  
+  }
